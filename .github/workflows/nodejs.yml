@@ -24,6 +24,7 @@ jobs:
     - run: git init
     - run: git config user.name "sunmaoxiang"
     - run: git config user.email "sunmaoxiang98@163.com"
+    - run: git checkout -b main
     - run: git add .
     - run: git commit -m "update note"
     - env:
